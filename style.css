@@ -1,0 +1,54 @@
+h1:hover {
+    color: red;
+    background-color: brown;
+    margin: 50px;
+    /*  padding: 50px;
+    font-size: 50px; */
+}
+
+
+
+h1 {
+    color: aquamarine;
+}
+
+.middle {
+    color: blue;
+    font-weight: 700px;
+}
+
+a:visited {
+    color: red;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: yellow;
+    background-color: tomato;
+}
+
+li:nth-child(2n) {
+    color: violet;
+}
+
+li:nth-child(2n+1) {
+    background-color: slategray;
+}
+
+h3::before {
+    content: 'hello ';
+}
+
+h3::after {
+    content: ' gello ';
+    background-color: steelblue;
+    font-size: 10px;
+}
+.special::after{
+    background-color: aqua;
+    content: 'beta';
+    font-size: 10px;
+}

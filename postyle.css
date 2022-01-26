@@ -1,0 +1,30 @@
+#ring{
+ /*   position: sticky; */
+    position: relative;
+    z-index: 1;
+  
+}
+#water{
+    position: relative;
+    top: -85px;
+}
+#boy{
+    top: 75px;
+    position: relative;
+    z-index: 20;
+}
+
+.swimming{
+    position: relative;
+
+}
+.swimming div{
+    border: 1px dashed palevioletred;
+    width: 200px;
+
+}
+.dummy{
+    height: 150px;
+    width: 250px;
+    background-color: pink;
+}
